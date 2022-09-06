@@ -1,0 +1,85 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8"/>
+  <title>HTML Structured Data Extractor</title>
+</head>
+<body>
+<style>
+  body {
+    background-size: cover; /* recommended / also try the "contain" */
+    background-image: url(/img/background3.png); /* modified */
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  html, body {
+    width: 100%;
+    height: 100vh; /* 100% of the viewport height */
+    margin: 0;
+    overflow: hidden;
+    font-size: larger;
+  }
+  .divStyle {
+    border-radius: 25px;
+    border-top-left-radius: 0;
+    height: 100%;
+    text-align: center;
+    position: relative;
+    background: lightgray;
+    display: block;
+  }
+
+  .inputStyle {
+    margin: auto;
+    display: block;
+    border-radius: 15px;
+    padding: 0.5%;
+    border-width: thin;
+    width: 80%;
+  }
+
+  .checkboxStyle {
+    margin: 2%;
+  }
+
+  .divButton {
+    display: block;
+    align-items: center;
+  }
+
+  input.largerCheckbox {
+    width: 20px;
+    height: 20px;
+  }
+</style>
+<div class="divStyle">
+
+  <form method="post" th:action="@{'/index/postUrlForCrawling'}" style="padding-top: 5%">
+    <p>
+      <label style="display: block">Select format to choose from:
+        <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example" id="format" name="format" required>
+          <option value="">Choose a format</option>
+          <option th:each="format: ${formats}" th:value="${format}" th:text="${format}"> [format]</option>
+        </select>
+      </label>
+
+      <label style="display: block">Output format:
+        <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example" id="outputFormat" name="outputFormat" required>
+          <option value="">Turtle</option>
+          <option th:each="outputFormat: ${outputFormats}" th:value="${outputFormat}" th:text="${outputFormat}"> [outputFormat]</option>
+        </select>
+      </label>
+      <label style="display: block">
+        <input class="inputStyle" name="uri" type="text" placeholder="Enter URI here..."/>
+      </label>
+    </p>
+    <div class="row divButton mb-3 px-3 register-button"> <button type="submit"
+                                                                  id="just_load_please"
+                                                                  class="btn btn-success text-center">Get results</button> </div>
+  </form>
+
+  <button th:action="@{'/index/download1'}" th:if="'check' == true">Download</button>
+
+</div>
+</body>

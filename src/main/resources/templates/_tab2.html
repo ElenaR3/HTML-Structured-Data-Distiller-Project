@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>HTML Structured Data Extractor</title>
+</head>
+<body>
+<style>
+    body {
+        background-size: cover; /* recommended / also try the "contain" */
+        background-image: url(/img/background3.png); /* modified */
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    html, body {
+        width: 100%;
+        height: 100vh; /* 100% of the viewport height */
+        margin: 0;
+        overflow: hidden;
+        font-size: larger;
+    }
+    .divStyle {
+        border-radius: 25px;
+        border-top-left-radius: 0;
+        height: 100%;
+        text-align: center;
+        position: relative;
+        background: lightgray;
+        display: block;
+    }
+
+    .inputStyle {
+        margin: auto;
+        display: block;
+        border-radius: 15px;
+        padding: 0.5%;
+        border-width: thin;
+        width: 80%;
+    }
+
+    .checkboxStyle {
+        margin: 2%;
+    }
+
+    .divButton {
+        display: block;
+        align-items: center;
+    }
+
+    input.largerCheckbox {
+        width: 20px;
+        height: 20px;
+    }
+</style>
+<div class="divStyle">
+
+    <form method="post" th:action="@{'/index/postFile'}"
+          enctype="multipart/form-data" style="padding-top: 5%">
+
+        <label for="myfile">Select a file:</label>
+        <input type="file" id="myfile" name="myfile">
+
+        <p>
+            <label style="display: block">Data Source Format:
+                <input class="checkboxStyle largerCheckbox" type="checkbox" name="formats"
+                       th:each="format : ${formats}"
+                       th:text="${format}"
+                       th:value="${format}"
+                />
+            </label>
+
+        </p>
+        <div class="row divButton mb-3 px-3 register-button"> <button type="submit"
+                                                                      id="just_load_please"
+                                                                      class="btn btn-success text-center">Extract</button> </div>
+
+</form>
+</div>
+
+
+</body>

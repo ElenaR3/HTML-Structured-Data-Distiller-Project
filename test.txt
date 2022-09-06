@@ -1,0 +1,120 @@
+Depth: 1 URL: https://www.kafepauza.mk/knigi/ljubiteli-ste-na-istorijata-i-geografskite-karti-morate-da-gi-prochitate-ovie-knigi/
+@prefix article: <http://ogp.me/ns/article#> .
+@prefix fb: <http://www.facebook.com/2008/fbml> .
+@prefix ns1: <http://www.w3.org/1999/xhtml/vocab#> .
+@prefix ns2: <https://ogp.me/ns#image:> .
+@prefix og: <https://ogp.me/ns#> .
+
+<https://www.kafepauza.mk/knigi/ljubiteli-ste-na-istorijata-i-geografskite-karti-morate-da-gi-prochitate-ovie-knigi/> article:modified_time "2022-05-26T10:50:41+00:00"@mk,
+        "2022-05-26T12:50:41+02:00"@mk ;
+    article:published_time "2022-05-26T10:44:31+00:00"@mk,
+        "2022-05-26T12:44:31+02:00"@mk ;
+    article:publisher "https://facebook.com/kafepauza"@mk,
+        "https://www.facebook.com/kafepauza"@mk ;
+    article:section "Книги"@mk ;
+    article:tag "географска карта"@mk,
+        "геополитика"@mk,
+        "историја"@mk,
+        "книги"@mk,
+        "предлог"@mk ;
+    fb:app_id "148393901849396"@mk ;
+    <https://api.w.org/> <https://www.kafepauza.mk/wp-json/> ;
+    og:description "Не пропуштајте го нашиот денешен предлог!"@mk ;
+    og:image "https://www.kafepauza.mk/wp-content/uploads/2022/05/1-ljubiteli-ste-na-istorijata-i-geografskite-karti-morate-da-gi-prochitate-ovie-knigi.jpg"@mk ;
+    ns2:height "800"@mk ;
+    ns2:secure_url "https://www.kafepauza.mk/wp-content/uploads/2022/05/1-ljubiteli-ste-na-istorijata-i-geografskite-karti-morate-da-gi-prochitate-ovie-knigi.jpg"@mk ;
+    ns2:width "1200"@mk ;
+    og:locale "en_US"@mk ;
+    og:site_name "Кафе пауза"@mk,
+        "Кафе пауза | Читај на раат!"@mk ;
+    og:title "Љубители сте на историјата и географските карти? Морате да ги прочитате овие книги!"@mk ;
+    og:type "article"@mk ;
+    og:updated_time "2022-05-26T12:50:41+02:00"@mk ;
+    og:url "http://www.kafepauza.mk/knigi/ljubiteli-ste-na-istorijata-i-geografskite-karti-morate-da-gi-prochitate-ovie-knigi/"@mk,
+        "https://www.kafepauza.mk/knigi/ljubiteli-ste-na-istorijata-i-geografskite-karti-morate-da-gi-prochitate-ovie-knigi/"@mk .
+
+[] ns1:role ns1:img .
+
+[] ns1:role ns1:img .
+
+
+
+
+Depth: 2 URL: https://www.kafepauza.mk/zanimlivosti/zachini-sovrshena-alatka-za-istrazhuvanje-na-istorijata-na-choveshtvoto/
+@prefix article: <http://ogp.me/ns/article#> .
+@prefix fb: <http://www.facebook.com/2008/fbml> .
+@prefix ns1: <https://ogp.me/ns#image:> .
+@prefix ns2: <http://www.w3.org/1999/xhtml/vocab#> .
+@prefix og: <https://ogp.me/ns#> .
+
+<https://www.kafepauza.mk/zanimlivosti/zachini-sovrshena-alatka-za-istrazhuvanje-na-istorijata-na-choveshtvoto/> article:modified_time "2022-04-08T10:02:04+00:00"@mk,
+        "2022-04-08T12:02:04+02:00"@mk ;
+    article:published_time "2022-04-04T10:38:19+00:00"@mk,
+        "2022-04-04T12:38:19+02:00"@mk ;
+    article:publisher "https://facebook.com/kafepauza"@mk,
+        "https://www.facebook.com/kafepauza"@mk ;
+    article:section "Добро е да се знае"@mk ;
+    article:tag "зачини"@mk,
+        "историја"@mk,
+        "човештво"@mk ;
+    fb:app_id "148393901849396"@mk ;
+    <https://api.w.org/> <https://www.kafepauza.mk/wp-json/> ;
+    og:description "Какви тајни кријат во себе зачините?"@mk ;
+    og:image "https://www.kafepauza.mk/wp-content/uploads/2022/04/1-zachini-sovrshena-alatka-za-istrazhuvanje-na-istorijata-na-choveshtvoto.jpg"@mk ;
+    ns1:height "800"@mk ;
+    ns1:secure_url "https://www.kafepauza.mk/wp-content/uploads/2022/04/1-zachini-sovrshena-alatka-za-istrazhuvanje-na-istorijata-na-choveshtvoto.jpg"@mk ;
+    ns1:width "1200"@mk ;
+    og:locale "en_US"@mk ;
+    og:site_name "Кафе пауза"@mk,
+        "Кафе пауза | Читај на раат!"@mk ;
+    og:title "Зачини – совршена алатка за истражување на историјата на човештвото!"@mk ;
+    og:type "article"@mk ;
+    og:updated_time "2022-04-08T12:02:04+02:00"@mk ;
+    og:url "http://www.kafepauza.mk/zanimlivosti/zachini-sovrshena-alatka-za-istrazhuvanje-na-istorijata-na-choveshtvoto/"@mk,
+        "https://www.kafepauza.mk/zanimlivosti/zachini-sovrshena-alatka-za-istrazhuvanje-na-istorijata-na-choveshtvoto/"@mk .
+
+[] ns2:role ns2:img .
+
+[] ns2:role ns2:img .
+
+
+
+
+Depth: 3 URL: https://www.kafepauza.mk/category/kafe-na-denot/recepti/
+@prefix fb: <http://www.facebook.com/2008/fbml> .
+@prefix ns1: <https://ogp.me/ns#image:> .
+@prefix og: <https://ogp.me/ns#> .
+
+<https://www.kafepauza.mk/category/kafe-na-denot/recepti/> fb:app_id "148393901849396"@mk ;
+    <https://api.w.org/> <https://www.kafepauza.mk/wp-json/> ;
+    og:image "http://www.kafepauza.mk/wp-content/uploads/2015/04/logo1-copy.png"@mk ;
+    ns1:height "800"@mk ;
+    ns1:width "1200"@mk ;
+    og:locale "en_US"@mk ;
+    og:site_name "Кафе пауза"@mk ;
+    og:title "Рецепти"@mk ;
+    og:type "object"@mk ;
+    og:url "http://www.kafepauza.mk/category/kafe-na-denot/recepti/"@mk .
+
+
+
+
+Depth: 4 URL: https://www.kafepauza.mk/category/tehnologija/
+@prefix fb: <http://www.facebook.com/2008/fbml> .
+@prefix ns1: <https://ogp.me/ns#image:> .
+@prefix og: <https://ogp.me/ns#> .
+
+<https://www.kafepauza.mk/category/tehnologija/> fb:app_id "148393901849396"@mk ;
+    <https://api.w.org/> <https://www.kafepauza.mk/wp-json/> ;
+    og:image "http://www.kafepauza.mk/wp-content/uploads/2015/04/logo1-copy.png"@mk ;
+    ns1:height "675"@mk ;
+    ns1:width "1200"@mk ;
+    og:locale "en_US"@mk ;
+    og:site_name "Кафе пауза"@mk ;
+    og:title "Технологија"@mk ;
+    og:type "object"@mk ;
+    og:url "http://www.kafepauza.mk/category/tehnologija/"@mk .
+
+
+
+

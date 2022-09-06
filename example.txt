@@ -1,0 +1,920 @@
+Depth: 1 URL: https://www.kafepauza.mk/art-i-dizajn/japonski-umetnik-izrabotuva-neverojatni-remek-dela-od-oriz/
+[]
+
+
+Depth: 2 URL: https://www.kafepauza.mk/category/zivot/zdravje-i-fitnes/
+[]
+
+
+Depth: 3 URL: https://www.kafepauza.mk/zivot/dali-znaevte-deka-grozjeto-mozhe-da-go-prodolzhi-zhivotniot-vek/
+[]
+
+
+Depth: 4 URL: https://www.kafepauza.mk/zivot/shto-da-se-napiete-otkako-kje-se-razbudite-nutricionistite-go-imaat-odgovorot/
+[]
+
+
+Depth: 5 URL: https://www.kafepauza.mk/zivot/eve-shto-preporachuvaat-ekspertite-koga-ne-go-znaete-odgovorot-na-prashanje-na-intervju-za-rabota/
+[]
+
+
+Depth: 6 URL: https://www.kafepauza.mk/zivot/emocionalna-inteligencija-kluch-za-uspeshen-zhivot/
+[]
+
+
+Depth: 7 URL: https://www.kafepauza.mk/2021/11/29/
+[]
+
+
+Depth: 8 URL: https://www.kafepauza.mk/category/zivot/moda-i-ubavina/
+[]
+
+
+Depth: 9 URL: https://www.kafepauza.mk/category/zivot/moda-i-ubavina/page/3/
+[]
+
+
+Depth: 10 URL: https://www.kafepauza.mk/2021/10/07/
+[]
+
+
+Depth: 11 URL: https://www.kafepauza.mk/category/zivot/hrana-i-pijalaci/
+[]
+
+
+Depth: 1 URL: https://www.cnbc.com/etf-street/
+[
+  {
+    "@graph": [
+      {
+        "@id": "https://www.cnbc.com/etf-street/#MainContentContainer",
+        "http://www.w3.org/1999/xhtml/vocab#role": [
+          {
+            "@id": "http://www.w3.org/1999/xhtml/vocab#main"
+          }
+        ]
+      },
+      {
+        "@id": "https://www.cnbc.com/etf-street/",
+        "al:ios:app_name": [
+          {
+            "@language": "en",
+            "@value": "CNBC Business News and Finance"
+          }
+        ],
+        "al:ios:app_store_id": [
+          {
+            "@language": "en",
+            "@value": "398018310"
+          }
+        ],
+        "http://ogp.me/ns#description": [
+          {
+            "@language": "en",
+            "@value": "Exchange-traded funds can help investors balance risk in their portfolios and find growth in unexpected sectors."
+          }
+        ],
+        "http://ogp.me/ns#image": [
+          {
+            "@language": "en",
+            "@value": "https://sc.cnbcfm.com/applications/cnbc.com/staticcontent/img/cnbc_logo.gif?v=1524171804&w=1920&h=1080"
+          }
+        ],
+        "http://ogp.me/ns#site_name": [
+          {
+            "@language": "en",
+            "@value": "CNBC"
+          }
+        ],
+        "http://ogp.me/ns#title": [
+          {
+            "@language": "en",
+            "@value": "ETF Street"
+          }
+        ],
+        "http://ogp.me/ns#type": [
+          {
+            "@language": "en",
+            "@value": "website"
+          }
+        ],
+        "http://ogp.me/ns#url": [
+          {
+            "@language": "en",
+            "@value": "https://www.cnbc.com/etf-street/"
+          }
+        ],
+        "http://ogp.me/ns/article#modified_time": [
+          {
+            "@language": "en",
+            "@value": "2022-09-03T16:43:46+0000"
+          }
+        ],
+        "http://ogp.me/ns/article#published_time": [
+          {
+            "@language": "en",
+            "@value": "2017-04-17T14:01:12+0000"
+          }
+        ],
+        "http://ogp.me/ns/article#publisher": [
+          {
+            "@language": "en",
+            "@value": "https://www.facebook.com/cnbc"
+          }
+        ]
+      }
+    ],
+    "@id": "https://www.cnbc.com/etf-street/"
+  }
+]
+
+
+Depth: 2 URL: https://www.cnbc.com/site-map/
+[
+  {
+    "@graph": [
+      {
+        "@id": "https://www.cnbc.com/site-map/#MainContentContainer",
+        "http://www.w3.org/1999/xhtml/vocab#role": [
+          {
+            "@id": "http://www.w3.org/1999/xhtml/vocab#main"
+          }
+        ]
+      }
+    ],
+    "@id": "https://www.cnbc.com/site-map/"
+  }
+]
+
+
+Depth: 3 URL: https://www.cnbc.com/2019/09/04/the-brave-ones-podcast.html
+[
+  {
+    "@graph": [
+      {
+        "@id": "https://www.cnbc.com/2019/09/04/the-brave-ones-podcast.html#MainContentContainer",
+        "http://www.w3.org/1999/xhtml/vocab#role": [
+          {
+            "@id": "http://www.w3.org/1999/xhtml/vocab#main"
+          }
+        ]
+      },
+      {
+        "@id": "https://www.cnbc.com/2019/09/04/the-brave-ones-podcast.html",
+        "al:ios:app_name": [
+          {
+            "@language": "en",
+            "@value": "CNBC Business News and Finance"
+          }
+        ],
+        "al:ios:app_store_id": [
+          {
+            "@language": "en",
+            "@value": "398018310"
+          }
+        ],
+        "http://ogp.me/ns#description": [
+          {
+            "@language": "en",
+            "@value": "The Brave Ones podcast series charts the rise of some of the world's most successful entrepreneurs through intimate one-on-one interviews."
+          }
+        ],
+        "http://ogp.me/ns#image": [
+          {
+            "@language": "en",
+            "@value": "https://image.cnbcfm.com/api/v1/image/106886058-1622037013823-THE_BRAVE_ONES_POD_3000x2000_UPDATED.jpg?v=1622037030&w=1920&h=1080"
+          },
+          {
+            "@language": "en",
+            "@value": "https://image.cnbcfm.com/api/v1/image/104475074-the_brave_ones.jpg?v=1495015483&w=1920&h=1080"
+          }
+        ],
+        "http://ogp.me/ns#site_name": [
+          {
+            "@language": "en",
+            "@value": "CNBC"
+          }
+        ],
+        "http://ogp.me/ns#title": [
+          {
+            "@language": "en",
+            "@value": "The Brave Ones Podcast"
+          }
+        ],
+        "http://ogp.me/ns#type": [
+          {
+            "@language": "en",
+            "@value": "article"
+          }
+        ],
+        "http://ogp.me/ns#url": [
+          {
+            "@language": "en",
+            "@value": "https://www.cnbc.com/2019/09/04/the-brave-ones-podcast.html"
+          }
+        ],
+        "http://ogp.me/ns/article#author": [
+          {
+            "@language": "en",
+            "@value": "https://www.facebook.com/CNBC"
+          }
+        ],
+        "http://ogp.me/ns/article#modified_time": [
+          {
+            "@language": "en",
+            "@value": "2021-06-09T14:44:09+0000"
+          }
+        ],
+        "http://ogp.me/ns/article#opinion": [
+          {
+            "@language": "en",
+            "@value": "false"
+          }
+        ],
+        "http://ogp.me/ns/article#published_time": [
+          {
+            "@language": "en",
+            "@value": "2019-09-05T14:40:05+0000"
+          }
+        ],
+        "http://ogp.me/ns/article#publisher": [
+          {
+            "@language": "en",
+            "@value": "https://www.facebook.com/cnbc"
+          }
+        ],
+        "http://ogp.me/ns/article#section": [
+          {
+            "@language": "en",
+            "@value": "Podcasts"
+          }
+        ]
+      }
+    ],
+    "@id": "https://www.cnbc.com/2019/09/04/the-brave-ones-podcast.html"
+  }
+]
+
+
+Depth: 4 URL: https://www.cnbc.com/news-tips/
+[
+  {
+    "@graph": [
+      {
+        "@id": "https://www.cnbc.com/news-tips/",
+        "al:ios:app_name": [
+          {
+            "@value": "CNBC Business News and Finance"
+          }
+        ],
+        "al:ios:app_store_id": [
+          {
+            "@value": "398018310"
+          }
+        ],
+        "https://ogp.me/ns#description": [
+          {
+            "@value": "Have a news tip for CNBC? We want to hear from you."
+          }
+        ],
+        "https://ogp.me/ns#image": [
+          {
+            "@value": "https://sc.cnbcfm.com/applications/cnbc.com/staticcontent/img/cnbc_logo.gif"
+          }
+        ],
+        "https://ogp.me/ns#site_name": [
+          {
+            "@value": "CNBC"
+          }
+        ],
+        "https://ogp.me/ns#title": [
+          {
+            "@value": "CNBC News Tips"
+          }
+        ],
+        "https://ogp.me/ns#type": [
+          {
+            "@value": "website"
+          }
+        ],
+        "https://ogp.me/ns#url": [
+          {
+            "@value": "https://www.cnbc.com/news-tips/"
+          }
+        ]
+      }
+    ],
+    "@id": "https://www.cnbc.com/news-tips/"
+  }
+]
+
+
+Depth: 5 URL: https://www.cnbc.com/features/
+[
+  {
+    "@graph": [
+      {
+        "@id": "https://www.cnbc.com/features/#MainContentContainer",
+        "http://www.w3.org/1999/xhtml/vocab#role": [
+          {
+            "@id": "http://www.w3.org/1999/xhtml/vocab#main"
+          }
+        ]
+      },
+      {
+        "@id": "https://www.cnbc.com/features/",
+        "al:ios:app_name": [
+          {
+            "@language": "en",
+            "@value": "CNBC Business News and Finance"
+          }
+        ],
+        "al:ios:app_store_id": [
+          {
+            "@language": "en",
+            "@value": "398018310"
+          }
+        ],
+        "http://ogp.me/ns#description": [
+          {
+            "@language": "en",
+            "@value": "CNBC World, a service of NBC Universal, is a digital television network offering U.S. viewers real-time coverage of global financial markets. Bringing you feature shows from CNBC International and live news to provide 24-hour business news coverage."
+          }
+        ],
+        "http://ogp.me/ns#image": [
+          {
+            "@language": "en",
+            "@value": "https://sc.cnbcfm.com/applications/cnbc.com/staticcontent/img/cnbc_logo.gif?v=1524171804&w=1920&h=1080"
+          }
+        ],
+        "http://ogp.me/ns#site_name": [
+          {
+            "@language": "en",
+            "@value": "CNBC"
+          }
+        ],
+        "http://ogp.me/ns#title": [
+          {
+            "@language": "en",
+            "@value": "World Features"
+          }
+        ],
+        "http://ogp.me/ns#type": [
+          {
+            "@language": "en",
+            "@value": "website"
+          }
+        ],
+        "http://ogp.me/ns#url": [
+          {
+            "@language": "en",
+            "@value": "https://www.cnbc.com/features/"
+          }
+        ],
+        "http://ogp.me/ns/article#modified_time": [
+          {
+            "@language": "en",
+            "@value": "2019-12-24T01:42:22+0000"
+          }
+        ],
+        "http://ogp.me/ns/article#published_time": [
+          {
+            "@language": "en",
+            "@value": "2012-01-28T19:46:54+0000"
+          }
+        ],
+        "http://ogp.me/ns/article#publisher": [
+          {
+            "@language": "en",
+            "@value": "https://www.facebook.com/cnbc"
+          }
+        ]
+      }
+    ],
+    "@id": "https://www.cnbc.com/features/"
+  }
+]
+
+
+Depth: 6 URL: https://www.cnbc.com/closed-captioning/
+[
+  {
+    "@graph": [
+      {
+        "@id": "https://www.cnbc.com/closed-captioning/",
+        "al:ios:app_name": [
+          {
+            "@language": "en",
+            "@value": "CNBC Business News and Finance"
+          }
+        ],
+        "al:ios:app_store_id": [
+          {
+            "@language": "en",
+            "@value": "398018310"
+          }
+        ],
+        "http://ogp.me/ns#description": [
+          {
+            "@language": "en",
+            "@value": "CNBC is pleased to offer closed captioning on many CNBC Network programs made available online and through mobile apps. Programs with closed captioning will have a \"CC\" icon in the player controls. To report an issue or concern regarding closed captioning on CNBC.com, please contact us."
+          }
+        ],
+        "http://ogp.me/ns#image": [
+          {
+            "@language": "en",
+            "@value": "https://sc.cnbcfm.com/applications/cnbc.com/staticcontent/img/cnbc_logo.gif?v=1524171804&w=1920&h=1080"
+          }
+        ],
+        "http://ogp.me/ns#site_name": [
+          {
+            "@language": "en",
+            "@value": "CNBC"
+          }
+        ],
+        "http://ogp.me/ns#title": [
+          {
+            "@language": "en",
+            "@value": "Closed Captioning: CNBC.com"
+          }
+        ],
+        "http://ogp.me/ns#type": [
+          {
+            "@language": "en",
+            "@value": "website"
+          }
+        ],
+        "http://ogp.me/ns#url": [
+          {
+            "@language": "en",
+            "@value": "https://www.cnbc.com/closed-captioning/"
+          }
+        ],
+        "http://ogp.me/ns/article#modified_time": [
+          {
+            "@language": "en",
+            "@value": "2020-02-24T21:01:53+0000"
+          }
+        ],
+        "http://ogp.me/ns/article#published_time": [
+          {
+            "@language": "en",
+            "@value": "2013-07-19T13:58:29+0000"
+          }
+        ],
+        "http://ogp.me/ns/article#publisher": [
+          {
+            "@language": "en",
+            "@value": "https://www.facebook.com/cnbc"
+          }
+        ]
+      },
+      {
+        "@id": "https://www.cnbc.com/closed-captioning/#MainContentContainer",
+        "http://www.w3.org/1999/xhtml/vocab#role": [
+          {
+            "@id": "http://www.w3.org/1999/xhtml/vocab#main"
+          }
+        ]
+      }
+    ],
+    "@id": "https://www.cnbc.com/closed-captioning/"
+  }
+]
+
+
+Depth: 7 URL: https://www.cnbc.com/funds-and-etfs/
+[
+  {
+    "@graph": [
+      {
+        "@id": "https://www.cnbc.com/funds-and-etfs/#MainContentContainer",
+        "http://www.w3.org/1999/xhtml/vocab#role": [
+          {
+            "@id": "http://www.w3.org/1999/xhtml/vocab#main"
+          }
+        ]
+      },
+      {
+        "@id": "https://www.cnbc.com/funds-and-etfs/",
+        "al:ios:app_name": [
+          {
+            "@language": "en",
+            "@value": "CNBC Business News and Finance"
+          }
+        ],
+        "al:ios:app_store_id": [
+          {
+            "@language": "en",
+            "@value": "398018310"
+          }
+        ],
+        "http://ogp.me/ns#description": [
+          {
+            "@language": "en",
+            "@value": "Latest news and information on Exchange Traded Funds. "
+          }
+        ],
+        "http://ogp.me/ns#image": [
+          {
+            "@language": "en",
+            "@value": "https://sc.cnbcfm.com/applications/cnbc.com/staticcontent/img/cnbc_logo.gif?v=1524171804&w=1920&h=1080"
+          }
+        ],
+        "http://ogp.me/ns#site_name": [
+          {
+            "@language": "en",
+            "@value": "CNBC"
+          }
+        ],
+        "http://ogp.me/ns#title": [
+          {
+            "@language": "en",
+            "@value": "Funds and ETFs"
+          }
+        ],
+        "http://ogp.me/ns#type": [
+          {
+            "@language": "en",
+            "@value": "website"
+          }
+        ],
+        "http://ogp.me/ns#url": [
+          {
+            "@language": "en",
+            "@value": "https://www.cnbc.com/funds-and-etfs/"
+          }
+        ],
+        "http://ogp.me/ns/article#modified_time": [
+          {
+            "@language": "en",
+            "@value": "2022-09-03T15:52:13+0000"
+          }
+        ],
+        "http://ogp.me/ns/article#published_time": [
+          {
+            "@language": "en",
+            "@value": "2012-01-30T01:53:17+0000"
+          }
+        ],
+        "http://ogp.me/ns/article#publisher": [
+          {
+            "@language": "en",
+            "@value": "https://www.facebook.com/cnbc"
+          }
+        ]
+      }
+    ],
+    "@id": "https://www.cnbc.com/funds-and-etfs/"
+  }
+]
+
+
+Depth: 8 URL: https://www.cnbc.com/live-tv/
+[
+  {
+    "@graph": [
+      {
+        "@id": "https://www.cnbc.com/live-tv/",
+        "al:ios:app_name": [
+          {
+            "@language": "en",
+            "@value": "CNBC Business News and Finance"
+          }
+        ],
+        "al:ios:app_store_id": [
+          {
+            "@language": "en",
+            "@value": "398018310"
+          }
+        ],
+        "http://ogp.me/ns#description": [
+          {
+            "@language": "en",
+            "@value": "CNBC is the world leader in business news and real-time financial market coverage. Watch our live tv stream today."
+          }
+        ],
+        "http://ogp.me/ns#image": [
+          {
+            "@language": "en",
+            "@value": "https://sc.cnbcfm.com/applications/cnbc.com/staticcontent/img/cnbc_logo.gif?v=1524171804&w=1920&h=1080"
+          }
+        ],
+        "http://ogp.me/ns#site_name": [
+          {
+            "@language": "en",
+            "@value": "CNBC"
+          }
+        ],
+        "http://ogp.me/ns#title": [
+          {
+            "@language": "en",
+            "@value": "CNBC - Watch Full Episodes and Live TV"
+          }
+        ],
+        "http://ogp.me/ns#type": [
+          {
+            "@language": "en",
+            "@value": "website"
+          }
+        ],
+        "http://ogp.me/ns#url": [
+          {
+            "@language": "en",
+            "@value": "https://www.cnbc.com/live-tv/"
+          }
+        ],
+        "http://ogp.me/ns/article#modified_time": [
+          {
+            "@language": "en",
+            "@value": "2021-08-23T19:26:15+0000"
+          }
+        ],
+        "http://ogp.me/ns/article#published_time": [
+          {
+            "@language": "en",
+            "@value": "2019-12-09T23:23:38+0000"
+          }
+        ],
+        "http://ogp.me/ns/article#publisher": [
+          {
+            "@language": "en",
+            "@value": "https://www.facebook.com/cnbc"
+          }
+        ]
+      },
+      {
+        "@id": "https://www.cnbc.com/live-tv/#MainContentContainer",
+        "http://www.w3.org/1999/xhtml/vocab#role": [
+          {
+            "@id": "http://www.w3.org/1999/xhtml/vocab#main"
+          }
+        ]
+      }
+    ],
+    "@id": "https://www.cnbc.com/live-tv/"
+  }
+]
+
+
+Depth: 9 URL: https://www.cnbc.com/small-business/
+[
+  {
+    "@graph": [
+      {
+        "@id": "https://www.cnbc.com/small-business/",
+        "al:ios:app_name": [
+          {
+            "@language": "en",
+            "@value": "CNBC Business News and Finance"
+          }
+        ],
+        "al:ios:app_store_id": [
+          {
+            "@language": "en",
+            "@value": "398018310"
+          }
+        ],
+        "http://ogp.me/ns#description": [
+          {
+            "@language": "en",
+            "@value": "Find the top small business news, headlines, and videos about entrepreneurs, venture capital, jobs, start-ups, and more in CNBC's Small Business section."
+          }
+        ],
+        "http://ogp.me/ns#image": [
+          {
+            "@language": "en",
+            "@value": "https://sc.cnbcfm.com/applications/cnbc.com/staticcontent/img/cnbc_logo.gif?v=1524171804&w=1920&h=1080"
+          }
+        ],
+        "http://ogp.me/ns#site_name": [
+          {
+            "@language": "en",
+            "@value": "CNBC"
+          }
+        ],
+        "http://ogp.me/ns#title": [
+          {
+            "@language": "en",
+            "@value": "Small Business"
+          }
+        ],
+        "http://ogp.me/ns#type": [
+          {
+            "@language": "en",
+            "@value": "website"
+          }
+        ],
+        "http://ogp.me/ns#url": [
+          {
+            "@language": "en",
+            "@value": "https://www.cnbc.com/small-business/"
+          }
+        ],
+        "http://ogp.me/ns/article#modified_time": [
+          {
+            "@language": "en",
+            "@value": "2022-09-01T14:13:37+0000"
+          }
+        ],
+        "http://ogp.me/ns/article#published_time": [
+          {
+            "@language": "en",
+            "@value": "2014-08-22T14:02:35+0000"
+          }
+        ],
+        "http://ogp.me/ns/article#publisher": [
+          {
+            "@language": "en",
+            "@value": "https://www.facebook.com/cnbc"
+          }
+        ]
+      },
+      {
+        "@id": "https://www.cnbc.com/small-business/#MainContentContainer",
+        "http://www.w3.org/1999/xhtml/vocab#role": [
+          {
+            "@id": "http://www.w3.org/1999/xhtml/vocab#main"
+          }
+        ]
+      }
+    ],
+    "@id": "https://www.cnbc.com/small-business/"
+  }
+]
+
+
+Depth: 10 URL: https://www.cnbc.com/investing/
+[
+  {
+    "@graph": [
+      {
+        "@id": "https://www.cnbc.com/investing/",
+        "al:ios:app_name": [
+          {
+            "@language": "en",
+            "@value": "CNBC Business News and Finance"
+          }
+        ],
+        "al:ios:app_store_id": [
+          {
+            "@language": "en",
+            "@value": "398018310"
+          }
+        ],
+        "http://ogp.me/ns#description": [
+          {
+            "@language": "en",
+            "@value": "Expert Analysis, Investment Tools, Stock Screeners, and Financial Strategy Information."
+          }
+        ],
+        "http://ogp.me/ns#image": [
+          {
+            "@language": "en",
+            "@value": "https://sc.cnbcfm.com/applications/cnbc.com/staticcontent/img/cnbc_logo.gif?v=1524171804&w=1920&h=1080"
+          }
+        ],
+        "http://ogp.me/ns#site_name": [
+          {
+            "@language": "en",
+            "@value": "CNBC"
+          }
+        ],
+        "http://ogp.me/ns#title": [
+          {
+            "@language": "en",
+            "@value": "Investing"
+          }
+        ],
+        "http://ogp.me/ns#type": [
+          {
+            "@language": "en",
+            "@value": "website"
+          }
+        ],
+        "http://ogp.me/ns#url": [
+          {
+            "@language": "en",
+            "@value": "https://www.cnbc.com/investing/"
+          }
+        ],
+        "http://ogp.me/ns/article#modified_time": [
+          {
+            "@language": "en",
+            "@value": "2022-09-03T13:06:04+0000"
+          }
+        ],
+        "http://ogp.me/ns/article#published_time": [
+          {
+            "@language": "en",
+            "@value": "2012-01-30T01:52:25+0000"
+          }
+        ],
+        "http://ogp.me/ns/article#publisher": [
+          {
+            "@language": "en",
+            "@value": "https://www.facebook.com/cnbc"
+          }
+        ]
+      },
+      {
+        "@id": "https://www.cnbc.com/investing/#MainContentContainer",
+        "http://www.w3.org/1999/xhtml/vocab#role": [
+          {
+            "@id": "http://www.w3.org/1999/xhtml/vocab#main"
+          }
+        ]
+      }
+    ],
+    "@id": "https://www.cnbc.com/investing/"
+  }
+]
+
+
+Depth: 11 URL: https://www.cnbc.com/business/
+[
+  {
+    "@graph": [
+      {
+        "@id": "https://www.cnbc.com/business/",
+        "al:ios:app_name": [
+          {
+            "@language": "en",
+            "@value": "CNBC Business News and Finance"
+          }
+        ],
+        "al:ios:app_store_id": [
+          {
+            "@language": "en",
+            "@value": "398018310"
+          }
+        ],
+        "http://ogp.me/ns#description": [
+          {
+            "@language": "en",
+            "@value": "Latest headlines for business news around the world. "
+          }
+        ],
+        "http://ogp.me/ns#image": [
+          {
+            "@language": "en",
+            "@value": "https://sc.cnbcfm.com/applications/cnbc.com/staticcontent/img/cnbc_logo.gif?v=1524171804&w=1920&h=1080"
+          }
+        ],
+        "http://ogp.me/ns#site_name": [
+          {
+            "@language": "en",
+            "@value": "CNBC"
+          }
+        ],
+        "http://ogp.me/ns#title": [
+          {
+            "@language": "en",
+            "@value": "Business News"
+          }
+        ],
+        "http://ogp.me/ns#type": [
+          {
+            "@language": "en",
+            "@value": "website"
+          }
+        ],
+        "http://ogp.me/ns#url": [
+          {
+            "@language": "en",
+            "@value": "https://www.cnbc.com/business/"
+          }
+        ],
+        "http://ogp.me/ns/article#modified_time": [
+          {
+            "@language": "en",
+            "@value": "2022-09-03T17:05:51+0000"
+          }
+        ],
+        "http://ogp.me/ns/article#published_time": [
+          {
+            "@language": "en",
+            "@value": "2012-01-30T01:51:35+0000"
+          }
+        ],
+        "http://ogp.me/ns/article#publisher": [
+          {
+            "@language": "en",
+            "@value": "https://www.facebook.com/cnbc"
+          }
+        ]
+      },
+      {
+        "@id": "https://www.cnbc.com/business/#MainContentContainer",
+        "http://www.w3.org/1999/xhtml/vocab#role": [
+          {
+            "@id": "http://www.w3.org/1999/xhtml/vocab#main"
+          }
+        ]
+      }
+    ],
+    "@id": "https://www.cnbc.com/business/"
+  }
+]
+
+

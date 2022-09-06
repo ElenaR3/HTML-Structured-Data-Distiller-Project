@@ -1,0 +1,78 @@
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<!DOCTYPE html>
+<style>
+  body{margin-top:20px;}
+
+  .comment-wrapper .panel-body {
+    max-height:650px;
+    overflow:auto;
+  }
+
+  .comment-wrapper .media-list .media img {
+    width:64px;
+    height:64px;
+    border:2px solid #e5e7e8;
+  }
+
+  .comment-wrapper .media-list .media {
+    border-bottom:1px dashed #efefef;
+    margin-bottom:25px;
+  }
+
+  .custom-class {
+    width: 100%;
+  }
+  .media-body {
+    margin-left: 3%;
+  }
+  body {
+    margin-top: 0 !important;
+  }
+</style>
+<div class="container">
+  <div class="row bootstrap snippets bootdeys">
+    <div class="custom-class">
+      <div class="comment-wrapper">
+        <div class="panel panel-info">
+          <div class="panel-heading">
+            Results
+          </div>
+          <div class="panel-body">
+            <hr>
+            <ul class="media-list">
+              <li class="media">
+                <div class="media-body">
+                  <span th:text="${result_rdfa}" th:remove="tag">
+                  </span>
+                </div>
+              </li>
+              <li class="media">
+                <div class="media-body">
+
+                  <p th:text="${result_turtle}">
+                  </p>
+                </div>
+              </li>
+
+              <li class="media">
+                <div class="media-body">
+
+                  <p th:text="${result_json_ld}">
+                  </p>
+                </div>
+              </li>
+
+              <li class="media">
+                <div class="media-body">
+                  <p th:text="${result_microdata}">
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>

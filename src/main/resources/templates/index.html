@@ -1,0 +1,119 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>HTML Structured Data Extractor</title>
+
+    <link th:rel="stylesheet" th:href="@{webjars/bootstrap/4.0.0-2/css/bootstrap.min.css} "/>
+    <style>
+        body {
+            font-size: larger;
+        }
+        .tab-content{
+            height: 80%;
+        }
+        .container {
+            display: block;
+            height: 100%;
+        }
+
+        .row {
+            height: 100%;
+        }
+
+        .col {
+            height: 100%;
+        }
+
+        .tab-pane {
+           height: 80%;
+        }
+
+        .nav-link.active {
+         background-color: lightgray !important;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+        }
+
+        .pt-3 {
+            padding-top: 0 !important;
+        }
+    </style>
+</head>
+
+<body>
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+    <div class="container">
+        <a class="navbar-brand" href="/index">HTML Structured Data Extractor</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive"
+                aria-expanded="false" aria-label="Toggle navigtion">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/index">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+
+    <div class="row">
+        <div class="col">
+            <ul class="nav nav-tabs mt-5" id="myTabs">
+                <li class="nav-item"><a href="#tab1" data-url="/tab1" class="nav-link active">Distill by URI</a></li>
+                <li class="nav-item"><a href="#tab2" data-url="/tab2" class="nav-link">Distill by Input File</a></li>
+                <li class="nav-item"><a href="#tab3" data-url="/tab3" class="nav-link">Distill by Text Input</a></li>
+                <li class="nav-item"><a href="#tab4" data-url="/tab4" class="nav-link">Crawl for RDF data</a></li>
+            </ul>
+
+            <div class="tab-content pt-3">
+                <div class="tab-pane active" id="tab1">Active panel</div>
+                <div class="tab-pane" id="tab2"></div>
+                <div class="tab-pane" id="tab3"></div>
+                <div class="tab-pane" id="tab4"></div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<script th:src="@{/webjars/jquery/jquery.min.js}"></script>
+<script th:src="@{/webjars/popper.js/umd/popper.min.js}"></script>
+<script th:src="@{/webjars/bootstrap/js/bootstrap.min.js}"></script>
+
+<script>
+    $('#myTabs a').click(function (e) {
+        e.preventDefault();
+
+        var url = $(this).attr("data-url");
+        var href = this.hash;
+        var pane = $(this);
+
+        // ajax load from data-url
+        $(href).load(url, function (result) {
+            pane.tab('show');
+        });
+    });
+
+    // load first tab content
+    $('#tab1').load($('.nav-link.active').attr("data-url"), function (result) {
+    });
+</script>
+
+</body>
+</html>
