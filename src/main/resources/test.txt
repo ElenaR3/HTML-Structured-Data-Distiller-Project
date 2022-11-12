@@ -1,123 +1,20 @@
-Depth: 1 URL: https://www.cnbc.com/us-markets/
-@prefix article: <http://ogp.me/ns/article#> .
-@prefix ns1: <http://www.w3.org/1999/xhtml/vocab#> .
-@prefix ns2: <al:ios:> .
-@prefix og: <http://ogp.me/ns#> .
-
-<https://www.cnbc.com/us-markets/> ns2:app_name "CNBC Business News and Finance"@en ;
-    ns2:app_store_id "398018310"@en ;
-    og:description "Up to date market data and stock market news is available online. View US market headlines and market charts. Get the latest economy news, markets in our Market Overview."@en ;
-    og:image "https://sc.cnbcfm.com/applications/cnbc.com/staticcontent/img/cnbc_logo.gif?v=1524171804&w=1920&h=1080"@en ;
-    og:site_name "CNBC"@en ;
-    og:title "US Markets"@en ;
-    og:type "website"@en ;
-    og:url "https://www.cnbc.com/us-markets/"@en ;
-    article:modified_time "2022-09-05T22:07:55+0000"@en ;
-    article:published_time "2015-08-12T09:33:42+0000"@en ;
-    article:publisher "https://www.facebook.com/cnbc"@en .
-
-<https://www.cnbc.com/us-markets/#MainContentContainer> ns1:role ns1:main .
+Depth: 1 URL: https://www.kafepauza.mk/category/astrologija/
+{'json-ld': [{'@context': 'https://schema.org', '@graph': [{'@type': 'WebSite', '@id': 'https://www.kafepauza.mk/#website', 'url': 'https://www.kafepauza.mk/', 'name': 'Кафе пауза', 'description': 'Читај на раат!', 'inLanguage': 'wp-5.1.x-mk', 'publisher': {'@id': 'https://www.kafepauza.mk/#organization'}, 'potentialAction': {'@type': 'SearchAction', 'target': {'@type': 'EntryPoint', 'urlTemplate': 'https://www.kafepauza.mk/?s={search_term_string}'}, 'query-input': 'required name=search_term_string'}}, {'@type': 'Organization', '@id': 'https://www.kafepauza.mk/#organization', 'name': 'Кафе пауза', 'url': 'https://www.kafepauza.mk/', 'logo': {'@type': 'ImageObject', '@id': 'https://www.kafepauza.mk/#organizationLogo', 'url': 'https://www.kafepauza.mk/wp-content/uploads/2021/02/logo.gif', 'width': 678, 'height': 232}, 'image': {'@id': 'https://www.kafepauza.mk/#organizationLogo'}, 'sameAs': ['https://facebook.com/kafepauza', 'https://twitter.com/kafepauza', 'https://instagram.com/kafepauza', 'https://pinterest.com/kafepauza', 'https://youtube.com/kafepauza', 'https://linkedin.com/in/kafepauza']}, {'@type': 'BreadcrumbList', '@id': 'https://www.kafepauza.mk/#breadcrumblist', 'itemListElement': [{'@type': 'ListItem', '@id': 'https://www.kafepauza.mk/#listItem', 'position': 1, 'item': {'@type': 'WebPage', '@id': 'https://www.kafepauza.mk/', 'name': 'Home', 'description': 'Читај на раат!', 'url': 'https://www.kafepauza.mk/'}}]}, {'@type': 'WebPage', '@id': 'https://www.kafepauza.mk/#webpage', 'url': 'https://www.kafepauza.mk/', 'name': 'Кафе пауза', 'inLanguage': 'wp-5.1.x-mk', 'isPartOf': {'@id': 'https://www.kafepauza.mk/#website'}, 'breadcrumb': {'@id': 'https://www.kafepauza.mk/#breadcrumblist'}, 'datePublished': '2013-11-08T06:00:11+01:00', 'dateModified': '2021-02-20T23:15:56+01:00'}]}]}
 
 
+Depth: 2 URL: https://www.kafepauza.mk/category/zivot/
+{'json-ld': [{'@context': 'https://schema.org', '@graph': [{'@type': 'WebSite', '@id': 'https://www.kafepauza.mk/#website', 'url': 'https://www.kafepauza.mk/', 'name': 'Кафе пауза', 'description': 'Читај на раат!', 'inLanguage': 'wp-5.1.x-mk', 'publisher': {'@id': 'https://www.kafepauza.mk/#organization'}, 'potentialAction': {'@type': 'SearchAction', 'target': {'@type': 'EntryPoint', 'urlTemplate': 'https://www.kafepauza.mk/?s={search_term_string}'}, 'query-input': 'required name=search_term_string'}}, {'@type': 'Organization', '@id': 'https://www.kafepauza.mk/#organization', 'name': 'Кафе пауза', 'url': 'https://www.kafepauza.mk/', 'logo': {'@type': 'ImageObject', '@id': 'https://www.kafepauza.mk/#organizationLogo', 'url': 'https://www.kafepauza.mk/wp-content/uploads/2021/02/logo.gif', 'width': 678, 'height': 232}, 'image': {'@id': 'https://www.kafepauza.mk/#organizationLogo'}, 'sameAs': ['https://facebook.com/kafepauza', 'https://twitter.com/kafepauza', 'https://instagram.com/kafepauza', 'https://pinterest.com/kafepauza', 'https://youtube.com/kafepauza', 'https://linkedin.com/in/kafepauza']}, {'@type': 'BreadcrumbList', '@id': 'https://www.kafepauza.mk/#breadcrumblist', 'itemListElement': [{'@type': 'ListItem', '@id': 'https://www.kafepauza.mk/#listItem', 'position': 1, 'item': {'@type': 'WebPage', '@id': 'https://www.kafepauza.mk/', 'name': 'Home', 'description': 'Читај на раат!', 'url': 'https://www.kafepauza.mk/'}}]}, {'@type': 'WebPage', '@id': 'https://www.kafepauza.mk/#webpage', 'url': 'https://www.kafepauza.mk/', 'name': 'Кафе пауза', 'inLanguage': 'wp-5.1.x-mk', 'isPartOf': {'@id': 'https://www.kafepauza.mk/#website'}, 'breadcrumb': {'@id': 'https://www.kafepauza.mk/#breadcrumblist'}, 'datePublished': '2013-11-08T06:00:11+01:00', 'dateModified': '2021-02-20T23:15:56+01:00'}]}]}
 
 
-Depth: 2 URL: https://www.cnbc.com/cnbc-careers-and-employment/
-@prefix article: <http://ogp.me/ns/article#> .
-@prefix ns1: <http://www.w3.org/1999/xhtml/vocab#> .
-@prefix ns2: <al:ios:> .
-@prefix og: <http://ogp.me/ns#> .
-
-<https://www.cnbc.com/cnbc-careers-and-employment/> ns2:app_name "CNBC Business News and Finance"@en ;
-    ns2:app_store_id "398018310"@en ;
-    og:description ""@en ;
-    og:image "https://sc.cnbcfm.com/applications/cnbc.com/staticcontent/img/cnbc_logo.gif?v=1524171804&w=1920&h=1080"@en ;
-    og:site_name "CNBC"@en ;
-    og:title "CNBC Careers and Employment"@en ;
-    og:type "website"@en ;
-    og:url "https://www.cnbc.com/cnbc-careers-and-employment/"@en ;
-    article:modified_time "2021-11-29T19:36:45+0000"@en ;
-    article:published_time "2018-01-31T20:57:18+0000"@en ;
-    article:publisher "https://www.facebook.com/cnbc"@en .
-
-<https://www.cnbc.com/cnbc-careers-and-employment/#MainContentContainer> ns1:role ns1:main .
-
-[] ns1:role ns1:img .
+Depth: 3 URL: https://www.kafepauza.mk/zivot/brzo-i-vkusno-recept-za-lazanji-so-tikvichki-i-sirenje/
+{'json-ld': [{'@context': 'https://schema.org', '@graph': [{'@type': 'WebSite', '@id': 'https://www.kafepauza.mk/#website', 'url': 'https://www.kafepauza.mk/', 'name': 'Кафе пауза', 'description': 'Читај на раат!', 'inLanguage': 'wp-5.1.x-mk', 'publisher': {'@id': 'https://www.kafepauza.mk/#organization'}, 'potentialAction': {'@type': 'SearchAction', 'target': {'@type': 'EntryPoint', 'urlTemplate': 'https://www.kafepauza.mk/?s={search_term_string}'}, 'query-input': 'required name=search_term_string'}}, {'@type': 'Organization', '@id': 'https://www.kafepauza.mk/#organization', 'name': 'Кафе пауза', 'url': 'https://www.kafepauza.mk/', 'logo': {'@type': 'ImageObject', '@id': 'https://www.kafepauza.mk/#organizationLogo', 'url': 'https://www.kafepauza.mk/wp-content/uploads/2021/02/logo.gif', 'width': 678, 'height': 232}, 'image': {'@id': 'https://www.kafepauza.mk/#organizationLogo'}, 'sameAs': ['https://facebook.com/kafepauza', 'https://twitter.com/kafepauza', 'https://instagram.com/kafepauza', 'https://pinterest.com/kafepauza', 'https://youtube.com/kafepauza', 'https://linkedin.com/in/kafepauza']}, {'@type': 'BreadcrumbList', '@id': 'https://www.kafepauza.mk/#breadcrumblist', 'itemListElement': [{'@type': 'ListItem', '@id': 'https://www.kafepauza.mk/#listItem', 'position': 1, 'item': {'@type': 'WebPage', '@id': 'https://www.kafepauza.mk/', 'name': 'Home', 'description': 'Читај на раат!', 'url': 'https://www.kafepauza.mk/'}}]}, {'@type': 'WebPage', '@id': 'https://www.kafepauza.mk/#webpage', 'url': 'https://www.kafepauza.mk/', 'name': 'Кафе пауза', 'inLanguage': 'wp-5.1.x-mk', 'isPartOf': {'@id': 'https://www.kafepauza.mk/#website'}, 'breadcrumb': {'@id': 'https://www.kafepauza.mk/#breadcrumblist'}, 'datePublished': '2013-11-08T06:00:11+01:00', 'dateModified': '2021-02-20T23:15:56+01:00'}]}]}
 
 
+Depth: 4 URL: https://www.kafepauza.mk/zivot/recept-za-pechen-losos-so-vkusen-sos-od-bilki-i-limon/
+{'json-ld': [{'@context': 'https://schema.org', '@graph': [{'@type': 'WebSite', '@id': 'https://www.kafepauza.mk/#website', 'url': 'https://www.kafepauza.mk/', 'name': 'Кафе пауза', 'description': 'Читај на раат!', 'inLanguage': 'wp-5.1.x-mk', 'publisher': {'@id': 'https://www.kafepauza.mk/#organization'}, 'potentialAction': {'@type': 'SearchAction', 'target': {'@type': 'EntryPoint', 'urlTemplate': 'https://www.kafepauza.mk/?s={search_term_string}'}, 'query-input': 'required name=search_term_string'}}, {'@type': 'Organization', '@id': 'https://www.kafepauza.mk/#organization', 'name': 'Кафе пауза', 'url': 'https://www.kafepauza.mk/', 'logo': {'@type': 'ImageObject', '@id': 'https://www.kafepauza.mk/#organizationLogo', 'url': 'https://www.kafepauza.mk/wp-content/uploads/2021/02/logo.gif', 'width': 678, 'height': 232}, 'image': {'@id': 'https://www.kafepauza.mk/#organizationLogo'}, 'sameAs': ['https://facebook.com/kafepauza', 'https://twitter.com/kafepauza', 'https://instagram.com/kafepauza', 'https://pinterest.com/kafepauza', 'https://youtube.com/kafepauza', 'https://linkedin.com/in/kafepauza']}, {'@type': 'BreadcrumbList', '@id': 'https://www.kafepauza.mk/#breadcrumblist', 'itemListElement': [{'@type': 'ListItem', '@id': 'https://www.kafepauza.mk/#listItem', 'position': 1, 'item': {'@type': 'WebPage', '@id': 'https://www.kafepauza.mk/', 'name': 'Home', 'description': 'Читај на раат!', 'url': 'https://www.kafepauza.mk/'}}]}, {'@type': 'WebPage', '@id': 'https://www.kafepauza.mk/#webpage', 'url': 'https://www.kafepauza.mk/', 'name': 'Кафе пауза', 'inLanguage': 'wp-5.1.x-mk', 'isPartOf': {'@id': 'https://www.kafepauza.mk/#website'}, 'breadcrumb': {'@id': 'https://www.kafepauza.mk/#breadcrumblist'}, 'datePublished': '2013-11-08T06:00:11+01:00', 'dateModified': '2021-02-20T23:15:56+01:00'}]}]}
 
 
-Depth: 3 URL: https://www.cnbc.com/mobile/
-@prefix article: <http://ogp.me/ns/article#> .
-@prefix ns1: <http://www.w3.org/1999/xhtml/vocab#> .
-@prefix ns2: <al:ios:> .
-@prefix og: <http://ogp.me/ns#> .
-
-<https://www.cnbc.com/mobile/> ns2:app_name "CNBC Business News and Finance"@en ;
-    ns2:app_store_id "398018310"@en ;
-    og:description "Latest tech news for the mobile industry covering tablets, smartphones, new gear, innovative wireless products, and special reports. "@en ;
-    og:image "https://sc.cnbcfm.com/applications/cnbc.com/staticcontent/img/cnbc_logo.gif?v=1524171804&w=1920&h=1080"@en ;
-    og:site_name "CNBC"@en ;
-    og:title "Mobile"@en ;
-    og:type "website"@en ;
-    og:url "https://www.cnbc.com/mobile/"@en ;
-    article:modified_time "2022-09-06T18:46:45+0000"@en ;
-    article:published_time "2012-01-30T01:47:18+0000"@en ;
-    article:publisher "https://www.facebook.com/cnbc"@en .
-
-<https://www.cnbc.com/mobile/#MainContentContainer> ns1:role ns1:main .
-
-
-
-
-Depth: 4 URL: https://www.cnbc.com/investingclub/cramers-morning-thoughts/
-@prefix article: <http://ogp.me/ns/article#> .
-@prefix ns1: <http://www.w3.org/1999/xhtml/vocab#> .
-@prefix ns2: <al:ios:> .
-@prefix og: <http://ogp.me/ns#> .
-
-<https://www.cnbc.com/investingclub/cramers-morning-thoughts/> ns2:app_name "CNBC Business News and Finance"@en ;
-    ns2:app_store_id "398018310"@en ;
-    og:description "Jim's Morning Thoughts lists what Jim Cramer is watching before the trading day begins on Wall Street, including big headlines, major analyst calls and earnings reports."@en ;
-    og:image "https://sc.cnbcfm.com/applications/cnbc.com/staticcontent/img/cnbc_logo.gif?v=1524171804&w=1920&h=1080"@en ;
-    og:site_name "CNBC"@en ;
-    og:title "Jim's Morning Thoughts"@en ;
-    og:type "website"@en ;
-    og:url "https://www.cnbc.com/investingclub/cramers-morning-thoughts/"@en ;
-    article:modified_time "2022-09-06T14:58:31+0000"@en ;
-    article:published_time "2021-12-08T21:51:37+0000"@en ;
-    article:publisher "https://www.facebook.com/cnbc"@en .
-
-<https://www.cnbc.com/investingclub/cramers-morning-thoughts/#MainContentContainer> ns1:role ns1:main .
-
-[] ns1:role ns1:img .
-
-[] ns1:role ns1:img .
-
-[] ns1:role ns1:img .
-
-
-
-
-Depth: 5 URL: https://www.cnbc.com/investingclub/about/
-@prefix article: <http://ogp.me/ns/article#> .
-@prefix ns1: <http://www.w3.org/1999/xhtml/vocab#> .
-@prefix ns2: <al:ios:> .
-@prefix og: <http://ogp.me/ns#> .
-
-<https://www.cnbc.com/investingclub/about/> ns2:app_name "CNBC Business News and Finance"@en ;
-    ns2:app_store_id "398018310"@en ;
-    og:description "The CNBC Investing Club is now the official home to Jim's Charitable Trust. It's the only place where you can see every move Jim and his team make for the portfolio and get Jim's market insight before anyone else."@en ;
-    og:image "https://sc.cnbcfm.com/applications/cnbc.com/staticcontent/img/cnbc_logo.gif?v=1524171804&w=1920&h=1080"@en ;
-    og:site_name "CNBC"@en ;
-    og:title "About CNBC Investing Club"@en ;
-    og:type "website"@en ;
-    og:url "https://www.cnbc.com/investingclub/about/"@en ;
-    article:modified_time "2022-04-04T18:50:36+0000"@en ;
-    article:published_time "2022-01-18T05:29:51+0000"@en ;
-    article:publisher "https://www.facebook.com/cnbc"@en .
-
-<https://www.cnbc.com/investingclub/about/#MainContentContainer> ns1:role ns1:main .
-
-
+Depth: 5 URL: https://www.kafepauza.mk/tag/%d1%80%d0%b5%d1%86%d0%b5%d0%bf%d1%82/
+{'json-ld': [{'@context': 'https://schema.org', '@graph': [{'@type': 'WebSite', '@id': 'https://www.kafepauza.mk/#website', 'url': 'https://www.kafepauza.mk/', 'name': 'Кафе пауза', 'description': 'Читај на раат!', 'inLanguage': 'wp-5.1.x-mk', 'publisher': {'@id': 'https://www.kafepauza.mk/#organization'}, 'potentialAction': {'@type': 'SearchAction', 'target': {'@type': 'EntryPoint', 'urlTemplate': 'https://www.kafepauza.mk/?s={search_term_string}'}, 'query-input': 'required name=search_term_string'}}, {'@type': 'Organization', '@id': 'https://www.kafepauza.mk/#organization', 'name': 'Кафе пауза', 'url': 'https://www.kafepauza.mk/', 'logo': {'@type': 'ImageObject', '@id': 'https://www.kafepauza.mk/#organizationLogo', 'url': 'https://www.kafepauza.mk/wp-content/uploads/2021/02/logo.gif', 'width': 678, 'height': 232}, 'image': {'@id': 'https://www.kafepauza.mk/#organizationLogo'}, 'sameAs': ['https://facebook.com/kafepauza', 'https://twitter.com/kafepauza', 'https://instagram.com/kafepauza', 'https://pinterest.com/kafepauza', 'https://youtube.com/kafepauza', 'https://linkedin.com/in/kafepauza']}, {'@type': 'BreadcrumbList', '@id': 'https://www.kafepauza.mk/#breadcrumblist', 'itemListElement': [{'@type': 'ListItem', '@id': 'https://www.kafepauza.mk/#listItem', 'position': 1, 'item': {'@type': 'WebPage', '@id': 'https://www.kafepauza.mk/', 'name': 'Home', 'description': 'Читај на раат!', 'url': 'https://www.kafepauza.mk/'}}]}, {'@type': 'WebPage', '@id': 'https://www.kafepauza.mk/#webpage', 'url': 'https://www.kafepauza.mk/', 'name': 'Кафе пауза', 'inLanguage': 'wp-5.1.x-mk', 'isPartOf': {'@id': 'https://www.kafepauza.mk/#website'}, 'breadcrumb': {'@id': 'https://www.kafepauza.mk/#breadcrumblist'}, 'datePublished': '2013-11-08T06:00:11+01:00', 'dateModified': '2021-02-20T23:15:56+01:00'}]}]}
 
 

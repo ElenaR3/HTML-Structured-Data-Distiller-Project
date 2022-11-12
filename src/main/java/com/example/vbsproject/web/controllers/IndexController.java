@@ -1,29 +1,22 @@
 package com.example.vbsproject.web.controllers;
 import java.io.*;
-import java.net.URISyntaxException;
-import java.net.http.HttpResponse;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.nio.file.StandardCopyOption;
 import java.util.*;
-import java.util.stream.Collectors;
 
 import com.example.vbsproject.service.FileExport;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.github.jsonldjava.utils.Obj;
 import org.apache.jena.rdf.model.ModelFactory;
 import org.apache.jena.riot.RDFLanguages;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.configurationprocessor.json.JSONException;
 import org.springframework.boot.configurationprocessor.json.JSONObject;
-import org.springframework.core.io.InputStreamResource;
 import org.springframework.http.*;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
 import org.springframework.web.multipart.MultipartFile;
@@ -35,6 +28,8 @@ public class IndexController {
 
     @Autowired
     private FileExport fileExporter;
+
+    public static String UPLOAD_DIRECTORY = "src\\main\\resources\\uploads";
 
     @GetMapping
     public String main(Model model) {
@@ -67,130 +62,40 @@ public class IndexController {
         return "empty";
     }
 
-    @RequestMapping("/download1")
-    public ResponseEntity<InputStreamResource> downloadTextFileExample1() throws IOException {
-        String fileName = "data.txt";
-
-        String fileContent;
-        String path = "E:\\intellijProjects\\vbs-project\\src\\main\\resources\\test.txt";
-
-        File myObj = new File("E:\\intellijProjects\\vbs-project\\src\\main\\resources\\data.txt");
-        PrintWriter writer = new PrintWriter(myObj);
-        writer.print("");
-        writer.close();
-
-        byte[] encoded = Files.readAllBytes(Paths.get(path));
-        fileContent = new String(encoded, StandardCharsets.UTF_8);
-
-        // Create text file
-        Path exportedPath = fileExporter.export(fileContent, fileName);
-
-        // Download file with InputStreamResource
-        File exportedFile = exportedPath.toFile();
-        FileInputStream fileInputStream = new FileInputStream(myObj);
-        InputStreamResource inputStreamResource = new InputStreamResource(fileInputStream);
-
-        return ResponseEntity.ok()
-                .header(HttpHeaders.CONTENT_DISPOSITION, "attachment;filename=" + fileName)
-                .contentType(MediaType.TEXT_PLAIN)
-                .contentLength(exportedFile.length())
-                .body(inputStreamResource);
-    }
-
-
     @PostMapping("/postUrl")
     public String create(@RequestParam String uri, @RequestParam String [] formats, String outputFormat, Model model) throws IOException, JSONException, ClassNotFoundException {
         model.addAttribute("uri", uri);
-        return this.getBody(uri, formats, outputFormat, model);
-
-    }
-
-    @PostMapping("/postUrlForCrawling")
-    public String crawl(@RequestParam String uri, @RequestParam String format, String outputFormat, Model model) throws IOException, JSONException, ClassNotFoundException {
-        model.addAttribute("uri", uri);
-        model.addAttribute("serializer", outputFormat);
-        model.addAttribute("parser", format);
-
-        if(format.equals("Turtle in HTML"))
-            format = "turtle";
-        if(outputFormat.equals("RDF/XML"))
-            outputFormat = "xml";
-        if(outputFormat.equals("N-triples"))
-            outputFormat = "n3";
-
-
-        String externalApi;
-        if(!format.equals("JSON-LD")) {
-           externalApi = "http://127.0.0.1:2000/crawlingResult";
-        } else {
-            externalApi = "http://127.0.0.1:2000/crawlForJson";
-        }
-
-        RestTemplate restTemplate = new RestTemplate();
-        HttpHeaders headers = new HttpHeaders();
-        headers.setContentType(MediaType.APPLICATION_JSON);
-        JSONObject JsonObject = new JSONObject();
-        JsonObject.put("url", uri);
-        JsonObject.put("serializer", outputFormat.toLowerCase());
-        JsonObject.put("parser",format.toLowerCase());
-
-
-        HttpEntity<String> request =
-                new HttpEntity<String>(JsonObject.toString(), headers); // tuka smeniv od object
-
-        String resultAsJsonStr1 = restTemplate.postForObject(externalApi, request, String.class);
-
-        String TEXT_FILE = "E:\\intellijProjects\\vbs-project\\src\\main\\resources\\test.txt";
-
-        File textFile = new File(TEXT_FILE);
-        boolean isFileCreated = textFile.createNewFile();
-
-        BufferedWriter writer = new BufferedWriter(new FileWriter("E:\\intellijProjects\\vbs-project\\src\\main\\resources\\test.txt"));
-        writer.append(resultAsJsonStr1);
-
-        writer.close();
-
-        return "test";
+        return this.getDataFromUrl(uri, formats, outputFormat, model);
 
     }
 
     @PostMapping("/postFile")
-    public String exploreFile(@RequestParam MultipartFile myfile, @RequestParam String [] formats,
-                              Model model, RedirectAttributes attributes) throws IOException, InterruptedException, JSONException, ClassNotFoundException, URISyntaxException {
+    public String uploadFile(Model model, @RequestParam MultipartFile myfile, @RequestParam String [] formats,
+                             RedirectAttributes attributes) throws IOException, JSONException {
+        StringBuilder fileNames = new StringBuilder();
+        Path fileNameAndPath = Paths.get(UPLOAD_DIRECTORY, myfile.getOriginalFilename());
+        fileNames.append(myfile.getOriginalFilename());
+        Files.write(fileNameAndPath, myfile.getBytes());
+        model.addAttribute("msg", "Uploaded images: " + fileNames.toString());
 
-        // check if file is empty
-        if (myfile.isEmpty()) {
-            attributes.addFlashAttribute("message", "Please select a file to upload.");
-        }
+        StringBuilder sb = new StringBuilder();
 
-        String fileName = StringUtils.cleanPath(Objects.requireNonNull(myfile.getOriginalFilename()));
-        String fileLocation = null;
+        try (BufferedReader br = Files.newBufferedReader(fileNameAndPath)) {
 
-        try {
-
-            fileLocation = new File("src\\main\\resources").getAbsolutePath() + "\\" + fileName;
-            Path path = Paths.get(fileLocation);
-            Files.copy(myfile.getInputStream(), path, StandardCopyOption.REPLACE_EXISTING);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-
-        // return success response
-        attributes.addFlashAttribute("message", "You successfully uploaded " + fileName + '!');
-
-        model.addAttribute("filename", fileName);
-
-        Thread.sleep(2000);
-
-        try (InputStream inputStream = IndexController.class.getClassLoader().getResourceAsStream(fileName)) {
-            assert inputStream != null;
-            try (BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream))) {
-                String contents = reader.lines()
-                        .collect(Collectors.joining(System.lineSeparator()));
-                return this.getDataFromHtml(contents,formats, model);
-
+            // read line by line
+            String line;
+            while ((line = br.readLine()) != null) {
+                sb.append(line).append("\n");
             }
+
+        } catch (IOException e) {
+            System.err.format("IOException: %s%n", e);
         }
+
+        String data = sb.toString();
+
+        return this.getDataFromHtml(data,formats, model);
+
     }
 
     @PostMapping("/postText")
@@ -202,7 +107,7 @@ public class IndexController {
 
     @GetMapping("/getData")
 
-    public String getBody(@RequestBody String url, @RequestParam String [] formats,
+    public String getDataFromUrl(@RequestBody String url, @RequestParam String [] formats,
                           @RequestParam String outputFormat, Model model1) throws IOException, JSONException {
 
         String externalApi = "http://127.0.0.1:2000/result";
@@ -324,7 +229,7 @@ public class IndexController {
         System.out.println("This is JSON-LD:"+ result_json_ld);
         System.out.println("This is Microdata: "+ result_microdata);
 
-        return "test-final";
+        return "display-data";
     }
 
 
@@ -385,7 +290,7 @@ public class IndexController {
         model1.addAttribute("result_json_ld", result_json_ld);
         model1.addAttribute("result_microdata", result_microdata);
 
-        return "test-final";
+        return "display-data";
     }
 
     }
